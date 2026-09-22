@@ -1,0 +1,3906 @@
+{
+  "source_sha256": "42aec70adaaa70b5fc9d937cf48afcec9c5cc0e6a36944dfe142b935498cae62",
+  "compiled_scripts": 747,
+  "opcode_count": 568,
+  "symbols": 1025,
+  "frames": 5362,
+  "placements": 7689,
+  "placement_references": 49379,
+  "strings": 153,
+  "sound_cues": 47,
+  "sound_envelope_points": 21,
+  "snapshot_original_references": 75590,
+  "source_scripts": [
+    {
+      "source": "exports/scripts/DefineButton2_120/BUTTONCONDACTION on(release).as",
+      "sha256": "2af888d3d5ff64fd3ed1c93b94d487ca14f48ba3dc99a506d69ba303503ffbd2",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_207/BUTTONCONDACTION on(release).as",
+      "sha256": "4b34ddf932fc3234f6fef28e44b4ead7308a815a828c1531e79576127d6de58c",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_219/BUTTONCONDACTION on(release).as",
+      "sha256": "310554a993f821eb29ea5aa3874fae4da3c3270001c8f7f478e5bf7ecf67878f",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_224/BUTTONCONDACTION on(release).as",
+      "sha256": "8846011ac815c22df8dacdf17a368a9b3540afa64d081fae5fb61aa97e8bb636",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_228/BUTTONCONDACTION on(release).as",
+      "sha256": "e25fa39a956288f38457bcf778a301beb724dde3b0491e05e4ec3adb3f6cf010",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_232/BUTTONCONDACTION on(release).as",
+      "sha256": "4039a118a47449dc329e67c826e13d2e5d22c2f6223f14a4a8c752a3e569e545",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_235/BUTTONCONDACTION on(release).as",
+      "sha256": "6d46858bc676b49abc5a82c81e176124d4dd583c118a44f95e805e2db38efaa0",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_240/BUTTONCONDACTION on(release).as",
+      "sha256": "98605f998f9958b611454ca1cd03945f13fc44d1e805b4e65719e6012911612f",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_288/BUTTONCONDACTION on(release).as",
+      "sha256": "dccd132cb05e7c73e08c2d475cb531c81e7f95059989998f8627dcfa212ccc60",
+      "op_count": 0
+    },
+    {
+      "source": "exports/scripts/DefineButton2_341/BUTTONCONDACTION on(release).as",
+      "sha256": "124f8be06e5afef1a5d4c961fe37aa13ea83f7591b771b4bfc080b5c3bfcbd23",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_350/BUTTONCONDACTION on(press).as",
+      "sha256": "b59f57dee9b37fe93c3a0f9043d5fd856c02fbaa4745affd32b9bee9be24bca7",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_355/BUTTONCONDACTION on(press).as",
+      "sha256": "b59f57dee9b37fe93c3a0f9043d5fd856c02fbaa4745affd32b9bee9be24bca7",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_357/BUTTONCONDACTION on(press).as",
+      "sha256": "b59f57dee9b37fe93c3a0f9043d5fd856c02fbaa4745affd32b9bee9be24bca7",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_361/BUTTONCONDACTION on(press).as",
+      "sha256": "b59f57dee9b37fe93c3a0f9043d5fd856c02fbaa4745affd32b9bee9be24bca7",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_371/BUTTONCONDACTION on(release).as",
+      "sha256": "b14e459cf67a2aad3d96e9d7f8e25b1184cf18c21d3b7017505586e7590f7721",
+      "op_count": 5
+    },
+    {
+      "source": "exports/scripts/DefineButton2_378/BUTTONCONDACTION on(press).as",
+      "sha256": "07bb9eb1f5989b34b1add2da455dc7e73d5ae9ea8a459a23baefe45e9a57f566",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_382/BUTTONCONDACTION on(release).as",
+      "sha256": "a43bb08435f52ff92aa31a96752dd1c12cbbf525f468acafa79364092213b613",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_387/BUTTONCONDACTION on(press).as",
+      "sha256": "b59f57dee9b37fe93c3a0f9043d5fd856c02fbaa4745affd32b9bee9be24bca7",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_404/BUTTONCONDACTION on(release).as",
+      "sha256": "2af888d3d5ff64fd3ed1c93b94d487ca14f48ba3dc99a506d69ba303503ffbd2",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_418/BUTTONCONDACTION on(release).as",
+      "sha256": "b13d3e208c33b2b8903504a4146f388387a8bdf287ad15eb51eca5976b70c547",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_419/BUTTONCONDACTION on(release).as",
+      "sha256": "1f3cb75b6cab5dcf16c431eedc8c67d144cf00f2935583fc4e2fd94df3f98efc",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_422/BUTTONCONDACTION on(release).as",
+      "sha256": "b16c41763f3de0bd0b59620210eb7b1cd3db1dc0602aeefa0ddfb78f53b9160a",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_432/BUTTONCONDACTION on(release).as",
+      "sha256": "a2b8d77a6b0f3ae7882b9e8c95316ad6ba81ced26139621ff339f6e1480cd41e",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_433/BUTTONCONDACTION on(release).as",
+      "sha256": "9afc3b8887b1e44843b90cb81e40e47eb15825bf7f85a662da7d7578efd1bfeb",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_434/BUTTONCONDACTION on(release).as",
+      "sha256": "0689bbe3e618e5e1f8486295a0e9e15af9dc1fb9e73cf58083abecb2634a5bce",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_437/BUTTONCONDACTION on(release).as",
+      "sha256": "ac3a20d202a10c2e0489384d8812118e44712c97997c5ff3cddb070cd9e6109b",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_438/BUTTONCONDACTION on(release).as",
+      "sha256": "76555d159f4b80e1fec85804e598290fa0811cfd8b29f245ef4407f609b08117",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_449/BUTTONCONDACTION on(release).as",
+      "sha256": "2c37bb31290efafb65968bf71830f56d48172267722d89c37888ecbd3f60a932",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineButton2_450/BUTTONCONDACTION on(release).as",
+      "sha256": "baad6cfaa94df039d225fa3b8fb1f11ff2cb6485de056722ca06e508fb0d9cb9",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_451/BUTTONCONDACTION on(release).as",
+      "sha256": "9b3417279a5694635ec7c8d336d2789192a6c51784b45b8727785c97141b8305",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_463/BUTTONCONDACTION on(release).as",
+      "sha256": "b7df3c853a4cd8ef67c0e754a5e5e76693540d035750e936a93c28ffabac56e5",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_499/BUTTONCONDACTION on(release).as",
+      "sha256": "2af888d3d5ff64fd3ed1c93b94d487ca14f48ba3dc99a506d69ba303503ffbd2",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_500/BUTTONCONDACTION on(release).as",
+      "sha256": "7d4271f436d929917b884d3d5ebecc59937e707355aa3418700d00adeefe277e",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_511/BUTTONCONDACTION on(release).as",
+      "sha256": "02eac9afa63d2dcbc9117e7780d6307817e16ff3b4261f38c2538b034d8495f5",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_534/BUTTONCONDACTION on(release).as",
+      "sha256": "a4927eff4ae3b74b02be517eb46f891525530961dc32fcbfc182c49710ad01e4",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_557/BUTTONCONDACTION on(release).as",
+      "sha256": "1c71193dd808e977b30c3aa94b1b53932f10609620ed33268238cd498835d0f5",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_558/BUTTONCONDACTION on(release).as",
+      "sha256": "af43de3322650636aec533668ba2100d5adfc0230cb5d4bd1a31985f07df82b6",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_579/BUTTONCONDACTION on(release).as",
+      "sha256": "ea66040a37b61c993d39028691dcf5c87e63dc9c10fcfeb997067c98dddbed2c",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_591/BUTTONCONDACTION on(release).as",
+      "sha256": "f184f30200df5eb005171eef9c508c481e0a38216ecd7ca31fcf2717b2f0d8c8",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineButton2_593/BUTTONCONDACTION on(release).as",
+      "sha256": "71d4aab4f39101134907850d1a8d5c81699bba01b6a061fe081fed100196cb15",
+      "op_count": 5
+    },
+    {
+      "source": "exports/scripts/DefineButton2_594/BUTTONCONDACTION on(release).as",
+      "sha256": "27bbafd0e27f01908a0701c4f33e720dfd9a050eee14db0afa67d8a8c3d1bb30",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_595/BUTTONCONDACTION on(release).as",
+      "sha256": "63cd6ee9da8924a4862c829d19adc495330e91076816f0dff2d5effad056b54c",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_604/BUTTONCONDACTION on(release).as",
+      "sha256": "f4b42159d8bdd6b4425f55417ebb531aaf91163f0604519c6ea0c14a8fb9b73a",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineButton2_605/BUTTONCONDACTION on(release).as",
+      "sha256": "a6a52e544e48c6cad96d6c50bb99d4abba647d5df150ce5db0b825a1e6f9dd82",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_647/BUTTONCONDACTION on(release).as",
+      "sha256": "98d05d3050f71b8ead79ef9e3f6b4bab6bb376bd33d46b429e8488295b39ef89",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineButton2_648/BUTTONCONDACTION on(release).as",
+      "sha256": "c9f55dc51140922cfdd5d1e5038bab27c6472560cdafa85470150e9ebec816df",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_656/BUTTONCONDACTION on(release).as",
+      "sha256": "1b23637519b40601b12b9d650255d1d790c574def0487dbd10f49ab5d886333f",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_658/BUTTONCONDACTION on(release).as",
+      "sha256": "5ad7c61728a4ad5e12bdfd2065f6d29d9497282aa958749165291cb28b2544ec",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_659/BUTTONCONDACTION on(release).as",
+      "sha256": "36404acc79918b17199edbf1ad41c6fee4ef0ca91b1021eb860650a913ddc538",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_664/BUTTONCONDACTION on(release).as",
+      "sha256": "22c7744a1b3dfb3d41a7a1a4d1198eca1b1a8444a79bdb2aca2c2c5db9b12547",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_666/BUTTONCONDACTION on(release).as",
+      "sha256": "4f6f4b144940662873d5aa42660f42d9589baa23003a9e427217d394d9877b03",
+      "op_count": 0
+    },
+    {
+      "source": "exports/scripts/DefineButton2_668/BUTTONCONDACTION on(release).as",
+      "sha256": "f272762cae5b21af8e74d55d6ca1f3bf991452856a3f93b9c59b9c8141320958",
+      "op_count": 0
+    },
+    {
+      "source": "exports/scripts/DefineButton2_670/BUTTONCONDACTION on(release).as",
+      "sha256": "1ff1dc280e7193c334acbb306c7eabeae93ff4775f94bf0d40f48519fe29906d",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_694/BUTTONCONDACTION on(release).as",
+      "sha256": "2af888d3d5ff64fd3ed1c93b94d487ca14f48ba3dc99a506d69ba303503ffbd2",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_703/BUTTONCONDACTION on(release).as",
+      "sha256": "75d8a7e446282c47460eba89a156b0cfe325fc41e2fa38bd7926cb8bd167ef24",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineButton2_711/BUTTONCONDACTION on(release).as",
+      "sha256": "41c0909f3d98a3643b33ff70b0f81c3c4597bf51c9b74a60e76a2c6ab5ca17d7",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_739/BUTTONCONDACTION on(press).as",
+      "sha256": "627c31d61431c465b1d8d2d57540bf09d1441a7daf968e78d669f907ac075346",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_746/BUTTONCONDACTION on(release).as",
+      "sha256": "3018afacc52509a07be11dfb905302fc21156af898448a5a615bf79e56e13e47",
+      "op_count": 4,
+      "native_equivalent": "on(release){ tellTarget(\"/pico\"){gotoAndStop(7);} tellTarget(\"/music\"){gotoAndPlay(2);} tellTarget(\"/action_room9\"){play();} tellTarget(\"/\"){gotoAndStop(9);} }",
+      "handling": "Restore hallway music when leaving Hanzou's room. The recovered exit omits the music-controller reset used by other exits, leaving the reward track looping."
+    },
+    {
+      "source": "exports/scripts/DefineButton2_751/BUTTONCONDACTION on(release).as",
+      "sha256": "fdd9413b3bfb081042be90d4e2896179b9846fbe6b4a5fa77ec1c4475762ddd5",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_756/BUTTONCONDACTION on(release).as",
+      "sha256": "224e2067d754921001595c695970290cd864c00a651e9ca1342fbed4db2c6509",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_757/BUTTONCONDACTION on(release).as",
+      "sha256": "7fa5b6d4f87427ea9779ac7291d847cc51c852655c29a6f1aedc88d454ff633c",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_758/BUTTONCONDACTION on(release).as",
+      "sha256": "b16c41763f3de0bd0b59620210eb7b1cd3db1dc0602aeefa0ddfb78f53b9160a",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_763/BUTTONCONDACTION on(release).as",
+      "sha256": "98d3b3377228251f1bd2a4e67b9f5960fd83178b1514b34a52cac4050f4e0e6a",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_764/BUTTONCONDACTION on(release).as",
+      "sha256": "60a76b83955f6aed7a1c3157ec7549451771d381c6bf782465881d70765edc93",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_766/BUTTONCONDACTION on(release).as",
+      "sha256": "de548666ce5fc801330a02f78a7513c9090555fe177deab9eab23a67816de45b",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineButton2_773/BUTTONCONDACTION on(press).as",
+      "sha256": "dbc8f87d3b73d715edf4e5d8f9b309381cb41058b836ee4db9923f77c7036140",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_788/BUTTONCONDACTION on(press).as",
+      "sha256": "b59f57dee9b37fe93c3a0f9043d5fd856c02fbaa4745affd32b9bee9be24bca7",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_798/BUTTONCONDACTION on(press).as",
+      "sha256": "b59f57dee9b37fe93c3a0f9043d5fd856c02fbaa4745affd32b9bee9be24bca7",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_806/BUTTONCONDACTION on(press).as",
+      "sha256": "0f3fd2d711470c1f326b7c9c6ada44c380b188a284f54027f4b52ff98dba3b17",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_807/BUTTONCONDACTION on(press).as",
+      "sha256": "b59f57dee9b37fe93c3a0f9043d5fd856c02fbaa4745affd32b9bee9be24bca7",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_816/BUTTONCONDACTION on(press).as",
+      "sha256": "b59f57dee9b37fe93c3a0f9043d5fd856c02fbaa4745affd32b9bee9be24bca7",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_839/BUTTONCONDACTION on(press).as",
+      "sha256": "b59f57dee9b37fe93c3a0f9043d5fd856c02fbaa4745affd32b9bee9be24bca7",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_84/BUTTONCONDACTION on(release).as",
+      "sha256": "e3c07dc9649916164efaf3656e246c02158ee9a9824e5adf1b35dd6071cd1604",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_857/BUTTONCONDACTION on(press).as",
+      "sha256": "924202c45aba42f953b3da6ac1c3c5d380dd021bb627f4cd32442862bc41f4e3",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_88/BUTTONCONDACTION on(release).as",
+      "sha256": "60a76b83955f6aed7a1c3157ec7549451771d381c6bf782465881d70765edc93",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_885/BUTTONCONDACTION on(press).as",
+      "sha256": "43a5a7e1b8e242da25ad3d90d30a09e01c9ebd9b471226c8c62e943b4da63f28",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_904/BUTTONCONDACTION on(press).as",
+      "sha256": "b59f57dee9b37fe93c3a0f9043d5fd856c02fbaa4745affd32b9bee9be24bca7",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineButton2_911/BUTTONCONDACTION on(press).as",
+      "sha256": "c6b6e095c6a0863b83457ea86065292d4b3df485c8c412ba1d94e452f2224e2a",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineButton2_917/BUTTONCONDACTION on(press).as",
+      "sha256": "0f3fd2d711470c1f326b7c9c6ada44c380b188a284f54027f4b52ff98dba3b17",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_100/frame_9/DoAction.as",
+      "sha256": "506866cab3b8cf0ade695c8872d1758e5161ff26b0cca0d0ac00cfadda9c424c",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_101/frame_9/DoAction.as",
+      "sha256": "506866cab3b8cf0ade695c8872d1758e5161ff26b0cca0d0ac00cfadda9c424c",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_1/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_170/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_171/DoAction.as",
+      "sha256": "398b47b453a23e11a9892fdc0703123766de8963b4d971da9ff425f1ab8fe13c",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_2/DoAction.as",
+      "sha256": "051f4f58062d477246385d160b45b130eff35e694535aa278596034ae51e60ce",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_3/DoAction.as",
+      "sha256": "7bd99c792ac43aa8254a7e1d58886c2e0c24367ec94503b4a417f7eca38d5b69",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_30/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_31/DoAction.as",
+      "sha256": "a6d3e57744381b6f6ae90205d70140bde01a2504b3e01d0d00958c9949f7f887",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_32/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_33/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_34/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_35/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_36/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_37/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_38/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_6/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_1024/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_107/frame_9/DoAction.as",
+      "sha256": "3f34bb64d60e3dbec5b9a84e92ad28117aaf8b45d0616d1c1599e39fcff94263",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_113/frame_16/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_121/frame_10/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_121/frame_11/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_134/frame_20/DoAction.as",
+      "sha256": "856358d758aa7c46be5faef5e2ad6e5488b763137f9035c20c7a3fed551f3525",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_141/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_142/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_154/frame_10/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_154/frame_11/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_154/frame_9/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_155/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_160/frame_10/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_160/frame_11/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_160/frame_12/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_160/frame_9/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_161/frame_6/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_164/frame_2/DoAction.as",
+      "sha256": "99b6572f746b143329feb2564740b404b102e0d5588f6b201292e042fcf92f77",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_165/frame_4/DoAction.as",
+      "sha256": "99b6572f746b143329feb2564740b404b102e0d5588f6b201292e042fcf92f77",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_166/frame_9/DoAction.as",
+      "sha256": "a361a3e9fba2a15ee89be7048e5def3406e240b348c30511f9683d37793bd452",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_182/frame_21/DoAction.as",
+      "sha256": "856358d758aa7c46be5faef5e2ad6e5488b763137f9035c20c7a3fed551f3525",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_185/frame_6/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_186/frame_25/DoAction.as",
+      "sha256": "efbce23e8ba0c6d97ac0d0c9b67c540777a07c9a7c7ce467d74a39fdfbda54b4",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_189/frame_20/DoAction.as",
+      "sha256": "856358d758aa7c46be5faef5e2ad6e5488b763137f9035c20c7a3fed551f3525",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_191/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_196/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_196/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_196/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_196/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_196/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_10/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_11/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_12/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_13/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_14/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_15/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_16/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_17/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_18/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_19/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_20/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_21/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_22/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_23/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_24/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_25/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_26/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_27/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_28/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_29/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_30/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_31/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_32/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_33/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_34/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_35/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_36/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_37/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_38/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_6/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_8/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_197/frame_9/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_199/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_199/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_202/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_202/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_208/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_208/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_208/frame_3/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_208/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_208/frame_5/DoAction.as",
+      "sha256": "a2f9e94101997ee0a852830a97261d04bbf35176d16cf8afb3a1a601d207553a",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_209/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_209/frame_2/DoAction.as",
+      "sha256": "b954923c353ebd15ccb93fb4d08e8e7f316bcff398bed2cbe3d4ad8f20edbc9d",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_209/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_209/frame_4/DoAction.as",
+      "sha256": "5715c0721bdebd9124258767926ab090efffb10e01cab73a1a3e3da74fc40208",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_209/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_209/frame_6/DoAction.as",
+      "sha256": "18c6d98b977951a4b12a5b0f78ccfbace7482bc007065e1f22c56c9354716ea1",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_220/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_220/frame_14/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_220/frame_8/DoAction.as",
+      "sha256": "3e73f85d98957c8f2640d5774409856b807f8d4dcd344cd407f60a22b1912112",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_225/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_225/frame_14/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_229/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_229/frame_14/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_229/frame_8/DoAction.as",
+      "sha256": "86448d4e11c62c599a9030a9dcd4a25dba3bb5f3c0310b60df81ea2777956418",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_233/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_233/frame_14/DoAction.as",
+      "sha256": "269d5f8c06698c66c40c9f8831ed4705ccaebf8d5dfcace6a441d828fbef9b9a",
+      "op_count": 2,
+      "native_equivalent": "if (_root._currentframe == 3) { tellTarget(\"/action_semi\") { gotoAndStop(3); } }",
+      "handling": "Restore cinema mode after the key pickup only while still in Alucard's room. The persistent inventory animation can finish after the exit has cleared the message."
+    },
+    {
+      "source": "exports/scripts/DefineSprite_233/frame_14/DoAction_2.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_233/frame_2/DoAction.as",
+      "sha256": "3dfcf8a8729e3bb3c23814eaf249bc1b5e65d2886509e317fddbb1c0f3a82a6c",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_236/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_236/frame_14/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_241/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_241/frame_14/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_243/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_243/frame_2/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_243/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_243/frame_5/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_243/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_10/DoAction.as",
+      "sha256": "71eebf6e4b9293251b06960fb9a5c83eda5efbb980e019c18b883a2176a70984",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_11/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_12/DoAction.as",
+      "sha256": "63c7d94d297b6d6f000162a3a06333aeebad4cb04ce230a59e28e413ee74f3c2",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_13/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_14/DoAction.as",
+      "sha256": "faba819b58dbad123b694782a5f29bd930ee66d564b50b62d2f67c556f085322",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_15/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_16/DoAction.as",
+      "sha256": "d2db3f3cae8cd55bda81d230bb8fff2cc2b8532f8f1e49e9cde52032324ad302",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_17/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_18/DoAction.as",
+      "sha256": "44ece3a9226c19e230ddec2454b666538ba3ce15101cb2bc32545626f768e688",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_19/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_2/DoAction.as",
+      "sha256": "df598e3a8ed5a6f36cc6ba50d9be5e77f444b892b61639241cff593cbc0b0b7d",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_20/DoAction.as",
+      "sha256": "e7930caf1dfa9d4834dbdf6c59ac9c27109ba4b6af5aba4ad50762f39c339762",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_4/DoAction.as",
+      "sha256": "5d2dcdfe92091fc81557155016e98dc6a2a14cbea6d64cd972714f2c89cbbb90",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_6/DoAction.as",
+      "sha256": "334de6875f9da833aa102a3cc19276d2196692070cc60449beba2fb7aa60b19a",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_8/DoAction.as",
+      "sha256": "66107927d815bbca60b024bd768a5b1fda95160f2eb935ca5a912fb8fe5721b5",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_244/frame_9/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_10/DoAction.as",
+      "sha256": "03ed56e2ed5e939acb65ddd2e68c0b739cd6486c4e3581bd96ad77a1f424d71f",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_11/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_12/DoAction.as",
+      "sha256": "62eb272ece87121c84dc0d6efdb474f05e4fc209cb52f0458d46881d90c25dda",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_13/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_14/DoAction.as",
+      "sha256": "6e49e3f38b5b53e2147c5af443916c439fbc752dccc6204379d77a910834f86c",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_15/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_16/DoAction.as",
+      "sha256": "879b9702e32c2cdfaacf16bbef9f36c0cf9d3776d0b791490ce17adb665a28c7",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_2/DoAction.as",
+      "sha256": "facb52c8b1ae7af3a7922410b2c1f88a4b5a84a1afc7b6b8175455e1a259c278",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_4/DoAction.as",
+      "sha256": "9c293cc1aa5287c4e6f6ec1b0671f49ecd81cb63f8a924b471170dcc788188eb",
+      "op_count": 5
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_6/DoAction.as",
+      "sha256": "7f7664206a69b9dffaef9d5b858eb8fc56c9610be4433495a4406cf17729f2ec",
+      "op_count": 5
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_8/DoAction.as",
+      "sha256": "2127893daf4d79f9cd3e88b3cad995e6a3e8c00f2ddad8f4e2595b841be011e1",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_245/frame_9/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_246/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_246/frame_2/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_246/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_246/frame_4/DoAction.as",
+      "sha256": "0cd317e042b8e521b4d710bc0940accbbc30ef24ba240e7b9cf34f32a09f3cff",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_247/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_247/frame_2/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_247/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_247/frame_4/DoAction.as",
+      "sha256": "7fce65e2cb9ed585853b3c38c768853e9dd9026784ca353b47eecdfe6772fd7d",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_247/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_247/frame_6/DoAction.as",
+      "sha256": "d0ba8194d3a8e9931b613ec152c1b9f5a1eece85b24bcf9331803075fca5bbaf",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_248/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_248/frame_2/DoAction.as",
+      "sha256": "b954923c353ebd15ccb93fb4d08e8e7f316bcff398bed2cbe3d4ad8f20edbc9d",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_248/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_248/frame_4/DoAction.as",
+      "sha256": "57bf7df8f8d0f73d296097acc4f839328a309477e6a22755404ba243e6674baa",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_248/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_248/frame_6/DoAction.as",
+      "sha256": "b1ebc4c4bafde68c889c1528f9b825d73195aefbe2592e898de153347146c1ff",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_248/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_248/frame_8/DoAction.as",
+      "sha256": "e1b242ca3a6bebb175d1ab97827b6568dffc921f8aad048a0e6291fca4ad812f",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_249/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_249/frame_2/DoAction.as",
+      "sha256": "b954923c353ebd15ccb93fb4d08e8e7f316bcff398bed2cbe3d4ad8f20edbc9d",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_249/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_249/frame_4/DoAction.as",
+      "sha256": "9dcea0fe146b4aa11272fb75d63edb7a487810f91161204ee0f1fe2c5bef953c",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_250/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_250/frame_2/DoAction.as",
+      "sha256": "fe7b3778ed694494cfd840b15cf79fb6a42fbff2eb914383e6acdb0a8f9275f6",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_250/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_250/frame_4/DoAction.as",
+      "sha256": "5715c0721bdebd9124258767926ab090efffb10e01cab73a1a3e3da74fc40208",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_251/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_251/frame_2/DoAction.as",
+      "sha256": "1a13542b9e67b57c2daee388037fe55c164fbd233e28160a82a9eadf73b35067",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_251/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_251/frame_4/DoAction.as",
+      "sha256": "b433eb5c9b13c50aa70453b3063baf7e1c1025269e36accace9baa790cb3a617",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_251/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_251/frame_6/DoAction.as",
+      "sha256": "078876beb337764d2cd80f4eeb0c106296f38b575831219d2776d43865841618",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_252/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_252/frame_2/DoAction.as",
+      "sha256": "b954923c353ebd15ccb93fb4d08e8e7f316bcff398bed2cbe3d4ad8f20edbc9d",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_252/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_252/frame_4/DoAction.as",
+      "sha256": "eaee55eb47ddad76b24cec311a79d77513a85b4902dc6366a64cd3ea8a3470d5",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_252/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_252/frame_6/DoAction.as",
+      "sha256": "a7b15104f49537385b4aca5dd56150a2e9e1c926df58f8ded92c2c5b0d3f9e58",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_10/DoAction.as",
+      "sha256": "577753d2f3d19279cfa60facd287dfbd4c971a16c283591576815ec0a9599f51",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_11/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_12/DoAction.as",
+      "sha256": "63c7d94d297b6d6f000162a3a06333aeebad4cb04ce230a59e28e413ee74f3c2",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_13/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_14/DoAction.as",
+      "sha256": "faba819b58dbad123b694782a5f29bd930ee66d564b50b62d2f67c556f085322",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_15/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_16/DoAction.as",
+      "sha256": "d2db3f3cae8cd55bda81d230bb8fff2cc2b8532f8f1e49e9cde52032324ad302",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_2/DoAction.as",
+      "sha256": "6535b4b3ad1eef77a1420554b2cc19306a1c6091e31c89cda12e9bce6f15a891",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_4/DoAction.as",
+      "sha256": "68c3d8225cfd9c033a736f89311a96cc8199ce81a80f0fa65426f73ed6b9e8ee",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_6/DoAction.as",
+      "sha256": "9872a8c8e63b80f8e81109834ce9350480a95e81cc123edf8f6ca88863f05d9b",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_8/DoAction.as",
+      "sha256": "13cb69a4d281c432271d72fe0b529c9693e367d94dc66d32cd0813b95678279a",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_253/frame_9/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_254/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_254/frame_2/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_254/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_254/frame_4/DoAction.as",
+      "sha256": "6e8f904446da31305065260d4ae368f21019f6798ddd5536ea83f7816b883690",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_255/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_255/frame_2/DoAction.as",
+      "sha256": "35279d845aec793253d69eba2f55850d26fafd3d086db94bc9855ff5518f96e2",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_255/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_255/frame_4/DoAction.as",
+      "sha256": "5715c0721bdebd9124258767926ab090efffb10e01cab73a1a3e3da74fc40208",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_262/frame_60/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_263/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_263/frame_31/DoAction.as",
+      "sha256": "a0c423cb01f6d9bc9f66556209412f4b03839af7c6d081bee0d445dca3a22e69",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_263/frame_61/DoAction.as",
+      "sha256": "ae26b481b6cad6dcd783e5387d24da6f70d296a3f0feedae586b0fed28cf6728",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_264/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_264/frame_2/DoAction.as",
+      "sha256": "3addfe700abc2b093ceb50719f9a7309ab7fe5a0f7757aa477fa5f3e915518ff",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_264/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_264/frame_4/DoAction.as",
+      "sha256": "e15dcc02ac76121e965ea005d00d6d1698d5da0efd978721179aece74bc73d00",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_264/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_264/frame_6/DoAction.as",
+      "sha256": "7ceed114316f26b78ea1d4a0a8037648ab4401ce402f417c0e3d1fc6daf979b7",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_265/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_265/frame_2/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_265/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_265/frame_4/DoAction.as",
+      "sha256": "9cbe387f7eb73567e86695ce723adc0360494497c51b9c5f12fe401ede355345",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_266/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_266/frame_2/DoAction.as",
+      "sha256": "1620848d40ee314e928f09f87d5782ca4f1f2201a6cca9b33ad931832e134eb5",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_266/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_266/frame_4/DoAction.as",
+      "sha256": "9fa178f94ebbc1a158626c2c95e81329c737b624cb2f2d24c1cffaf89740bc97",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_267/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_267/frame_2/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_267/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_267/frame_4/DoAction.as",
+      "sha256": "4fa4731ec34c8bb5fd55ae61dc401dc12e2c06aa8fde7044770c365bb067f2b4",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_269/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_269/frame_2/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_269/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_269/frame_4/DoAction.as",
+      "sha256": "41e501e9123644518a0edbab8ed792b98894ddfa0051339049de648c650cff0a",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_270/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_270/frame_2/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_270/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_270/frame_4/DoAction.as",
+      "sha256": "b282e080ce1f94cad049c751a0bd46f91024586386f637a192b341b61cfbdc93",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_271/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_271/frame_2/DoAction.as",
+      "sha256": "0ec250bb95e18c489a2197ffa42b62e640cdb0021aa3fc7f15d9de0059e761bd",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_271/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_271/frame_4/DoAction.as",
+      "sha256": "8b97db6ca6099d17dfebbda1cb0ccfa53b3e7957efc8acd33836d6dec2294162",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_271/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_271/frame_6/DoAction.as",
+      "sha256": "b03dc67cd645f5374e1ef81c88e2c66fcf3da78545690e5e51a4a89716089d53",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_271/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_271/frame_8/DoAction.as",
+      "sha256": "931dd31c4efa7d4587b21b15474734792ab5c3676e39e0b083e21c3005805d6b",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_275/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_275/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_275/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_10/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_11/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_12/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_13/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_14/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_6/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_8/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_281/frame_9/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_284/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_284/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_284/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_284/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_284/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_284/frame_6/DoAction.as",
+      "sha256": "fe9c72ba0336de2cc444df34c3112e80b4752ac52a7baf3c4644c08d2168f25b",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_303/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_303/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_314/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_314/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_314/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_314/frame_4/DoAction.as",
+      "sha256": "f3fe0d7cfd9f611815b7a5977ab91f5d4033d414931c9bf8b36eacc4c5cdcf81",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_327/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_342/frame_23/DoAction.as",
+      "sha256": "db980924857f312be71e35d682cba7385f5aafc3868a81b63461bd444e609435",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_343/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_343/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_348/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_348/frame_12/DoAction.as",
+      "sha256": "d38d6c9452016fcb66f852acf1fa1eb8060b94673569b4f963e24da0f80bc74a",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_348/frame_21/DoAction.as",
+      "sha256": "7f5af24e8f7e5ad7e7a828014aaad08ef35337722b7bcc544ceec345879d2437",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_354/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_354/frame_2/DoAction.as",
+      "sha256": "1b075fe93fe27a02079c1e66f52445844ef99c4e2a8fa81b758bcc2f288e6d4f",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_354/frame_5/DoAction.as",
+      "sha256": "428e2cb9fe196b04bfcd4cf1e512e81c11ec799ef9b6165293aed66edabda902",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_356/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_356/frame_2/DoAction.as",
+      "sha256": "1b075fe93fe27a02079c1e66f52445844ef99c4e2a8fa81b758bcc2f288e6d4f",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_356/frame_5/DoAction.as",
+      "sha256": "c6bdf36cb0b3304fbdd7bcf925c5c9b27d73601d9fe33409cf4d68326a0c54bc",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_358/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_358/frame_4/DoAction.as",
+      "sha256": "1b075fe93fe27a02079c1e66f52445844ef99c4e2a8fa81b758bcc2f288e6d4f",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_358/frame_5/DoAction.as",
+      "sha256": "718862089ffe82042cbc1a43a5aa281772339a231dc8e113369d193fb6721f02",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_363/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_363/frame_4/DoAction.as",
+      "sha256": "9a619b0e3db9ccefd1d2b7fb42a8e863fa44274fc24b3efa7998ab94934294df",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_383/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_383/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_1/DoAction.as",
+      "sha256": "2e726884410ae22ffc37d8f5c0cfca61f08f554a11eefcf642b91d3c83c21519",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_100/DoAction.as",
+      "sha256": "ece884bf4bbd30ba8fe6126a79a761160ee19ee1f7b4e79de81db4385fc6a5cd",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_129/DoAction.as",
+      "sha256": "59a84eac64215a89e581e26525d13b4fccc7419a6f50509c09705b470705c720",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_174/DoAction.as",
+      "sha256": "59a84eac64215a89e581e26525d13b4fccc7419a6f50509c09705b470705c720",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_2/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_206/DoAction.as",
+      "sha256": "59a84eac64215a89e581e26525d13b4fccc7419a6f50509c09705b470705c720",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_212/DoAction.as",
+      "sha256": "770b4249a2f0ddfdd25aa68b03d86af0742114ec7b60b6a28d38fe06af84d99a",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_213/DoAction.as",
+      "sha256": "d898a0efca62874cdf940766c81beaf378a38bf87994e696eb9b0db1e69ce7a3",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_217/DoAction.as",
+      "sha256": "d10e8e760a8725f46367964cc0885f88ec9001a4924c54e300734283f7c075db",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_247/DoAction.as",
+      "sha256": "59a84eac64215a89e581e26525d13b4fccc7419a6f50509c09705b470705c720",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_252/DoAction.as",
+      "sha256": "770b4249a2f0ddfdd25aa68b03d86af0742114ec7b60b6a28d38fe06af84d99a",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_29/DoAction.as",
+      "sha256": "69fefe2f839470342927b1ce938a287e017494b4b647388177e099e8d6015725",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_294/DoAction.as",
+      "sha256": "c281a1bab2c3a7887452500258a26d1b56cf823c750ad9e43707590e6d49ef17",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_297/DoAction.as",
+      "sha256": "37fec569806e17c42ea1ff4e01b4c50de0379d2203bf36b2488b9d5c78646fb1",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_298/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_299/DoAction.as",
+      "sha256": "98b2076d672b23530166273c944389123a8dfc44b6ab91cef4d89d7f88e68dfc",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_30/DoAction.as",
+      "sha256": "0c8cc20ffc269bd6dec8780d54ee829e084382b8ed20b0e560b5a644c6444b4a",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_308/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_309/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_31/DoAction.as",
+      "sha256": "b16a8a8d4c8933bd5e9964f27cd94cee08ae5a1e0eae9779ac44cac204b1bf5c",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_310/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_311/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_312/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_316/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_320/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_325/DoAction.as",
+      "sha256": "db34172603bc7ac26fa56486baed88441b415fb18b536be9da2055a1e341541a",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_329/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_333/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_337/DoAction.as",
+      "sha256": "f9bdd7be147338b78c6856089a868458b45c353512efa2d4c61334d171a3c1d7",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_341/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_346/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_348/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_353/DoAction.as",
+      "sha256": "3947cbd33d55d2f1dc5476549377a17cf71c420083b5dc59b4bb9590ec618d6c",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_354/DoAction.as",
+      "sha256": "c28f7606e2e8ea57497e49d82f928fc92981b8577a3a4d1f61add1e9f1dd21f2",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_360/DoAction.as",
+      "sha256": "124dc621f6e2aa99886a545541cbe054e77cab08ebb9e97948fed4b25820a7d6",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_361/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_6/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_395/frame_73/DoAction.as",
+      "sha256": "9ee41d3c07a9aab269ec35c02d438aaaab2f23ac781d227213c845969bc26b0c",
+      "op_count": 6
+    },
+    {
+      "source": "exports/scripts/DefineSprite_406/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_406/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_406/frame_6/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_410/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_410/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_410/frame_6/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_423/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_423/frame_1/DoAction_2.as",
+      "sha256": "a7676a86c31368a55a11a87a98a79626a3c27b8f7dc9d034c3a47119b76559dd",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_429/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_429/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_429/frame_6/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_439/frame_1/DoAction.as",
+      "sha256": "3de064cfe9d11117f9a6b618f9a3af945eba3dfcbc27060b7efad01011710bf3",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_439/frame_1/DoAction_2.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_439/frame_1/DoAction_3.as",
+      "sha256": "900f1b939e3d1d45743dd06c19eb283ef5acc80e084df1a9150c03e060247f5e",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_439/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_439/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_452/frame_1/DoAction.as",
+      "sha256": "19b500b062bc07287dafa8bfc29e30a68c7328b2dbb83d45e9391d8d16327e45",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_464/frame_1/DoAction.as",
+      "sha256": "48f8a6aab206eac7f50f6c0d3a7d4a5861dbad424ee5f9875cae1e8aeca24adf",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_1/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_10/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_11/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_12/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_13/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_14/DoAction.as",
+      "sha256": "3a04678817502e4fed2413dc4ec7ce146543fe60e30624178273c5362b2e7eb6",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_15/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_16/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_17/DoAction.as",
+      "sha256": "3f34bb64d60e3dbec5b9a84e92ad28117aaf8b45d0616d1c1599e39fcff94263",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_18/DoAction.as",
+      "sha256": "e828b94c4a5d06500b5705b5c2e908aa534957a5d5dffb18a6517c311090688a",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_18/DoAction_2.as",
+      "sha256": "3d9635199e008a33de9cf0b2bed2e01b4dfb3a8f10cfb8be5c97713a38bcfc26",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_32/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_35/DoAction.as",
+      "sha256": "3a04678817502e4fed2413dc4ec7ce146543fe60e30624178273c5362b2e7eb6",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_36/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_37/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_38/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_39/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_40/DoAction.as",
+      "sha256": "3f34bb64d60e3dbec5b9a84e92ad28117aaf8b45d0616d1c1599e39fcff94263",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_41/DoAction.as",
+      "sha256": "e828b94c4a5d06500b5705b5c2e908aa534957a5d5dffb18a6517c311090688a",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_41/DoAction_2.as",
+      "sha256": "3d9635199e008a33de9cf0b2bed2e01b4dfb3a8f10cfb8be5c97713a38bcfc26",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_520/frame_55/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_539/frame_60/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_544/frame_21/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_544/frame_22/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_544/frame_23/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_544/frame_24/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_544/frame_25/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_544/frame_26/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_544/frame_27/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_544/frame_30/DoAction.as",
+      "sha256": "d814279b71fd477878f62df448db30e4f91e1060462ff528c89f589ba8d8e251",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_544/frame_51/DoAction.as",
+      "sha256": "8f1451d22783f052748038615af71026bf528b32934a26664d191ec2e1163d60",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_544/frame_52/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_544/frame_53/DoAction.as",
+      "sha256": "42ff0036aed0f3bdf2030d396fd8445786be3ae9df60c337188c4e158883866a",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_551/frame_6/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_552/frame_1/DoAction.as",
+      "sha256": "fec3d3308c618e2b0cddd2f42701680b2114f5512e8d3911ee31810fcd7b1f0d",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_552/frame_21/DoAction.as",
+      "sha256": "83a16f8d3a5ed9db69dc9fee4af19f35410873fdfd2fe90b1b108956265adea3",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_555/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_568/frame_6/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_572/frame_20/DoAction.as",
+      "sha256": "a63b347a5ce831f0e617db6c9cfe7d4eb23cc226a51d6a6c7744e66bfe38f1a0",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_573/frame_1/DoAction.as",
+      "sha256": "e017c22ecd966189f7790349c1192d33afe6ff8981d105e46a0059c572a02d87",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_573/frame_1/DoAction_2.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_573/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_573/frame_3/DoAction.as",
+      "sha256": "27e571bd07521708822ac643895203884759ba4c7d4af00dcdc3e98dd4576538",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_573/frame_4/DoAction.as",
+      "sha256": "cdad1fe19caa6b922a348295b7eb4141f4aa5e76e96e0424ed8d2ba5bc29ed36",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_573/frame_5/DoAction.as",
+      "sha256": "b7d4027e7e0d01c6fc4f20e4b477600a8a2cb20c4c4283d5c48a154392d81ddc",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_573/frame_6/DoAction.as",
+      "sha256": "d7f1d304b17ac741ae517598f1138057c6d941bfd5131607891af3a9a926824b",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_573/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_576/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_576/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_576/frame_6/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_580/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_580/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_581/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_581/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_581/frame_6/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_582/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_582/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_59/frame_60/DoAction.as",
+      "sha256": "aad9fbd033f4051df0d5b0428acd91b40fea4614cb0f7e65dce362f29d541857",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_59/frame_61/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_596/frame_1/DoAction.as",
+      "sha256": "23003d1c26411940c3f31aed61d1a93526675aad15fde15ee0c85cfaa66299d9",
+      "op_count": 5
+    },
+    {
+      "source": "exports/scripts/DefineSprite_596/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_596/frame_46/DoAction.as",
+      "sha256": "91668f6825dd3d67f3999b9f664e419c0236a51657da8559c3c7351c9250ca24",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_632/frame_35/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_635/frame_20/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_636/frame_1/DoAction.as",
+      "sha256": "bb710542f16625191dd53bda28330b3575c06161c8a1a5f5d2e6fbe460de75b9",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_636/frame_1/DoAction_2.as",
+      "sha256": "07d0ba81c11cc0e2ba63b240b6a8e8f87fcdecd441ef85a09370410c8a483896",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_636/frame_10/DoAction.as",
+      "sha256": "3bb2d127fdac84e4a4c84c99b1f28fcd15d50efa7fb4676726d27463714d59cf",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_636/frame_11/DoAction.as",
+      "sha256": "2812913e62db1c2bedd30c9502ed5a1721db7fe382b4bfaaf3ded649de3efd99",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_636/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_636/frame_6/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_636/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_636/frame_8/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_643/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_643/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_649/frame_1/DoAction.as",
+      "sha256": "975591040c1a1d8efd0928731680911c4856200bf59063afdf4eee9db358cca9",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_660/frame_1/DoAction.as",
+      "sha256": "e9feb818b8d66da271fffffed0236c6b29ffacaa592cd3bfb731ab9d6a560c87",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_660/frame_1/DoAction_2.as",
+      "sha256": "02b181ef757faff828dbffd6b89c4f1c726b009fa2cd7d3cf998cef3a312aa4f",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_660/frame_14/DoAction.as",
+      "sha256": "b6d68a4466bde7b4367c9fc62abcb089ea2c845099410b6e2006699783f0ea7f",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_660/frame_15/DoAction.as",
+      "sha256": "5b9122fb28f6899bb650c5acc9d5e9b52d67e3364ccccdce087429b1323d7cd6",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_660/frame_16/DoAction.as",
+      "sha256": "69bc56ed9b78051732a12196caadc50b78943dd499adb21ae552feb7fea90974",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_660/frame_2/DoAction.as",
+      "sha256": "215c2ce7a995715e32054d485e06b9fc6391a1df0b3473c2fad30496fc82d6ca",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_660/frame_3/DoAction.as",
+      "sha256": "592b38792c18d47a96d3f3a83dca40814a6b661e90e130d57b792cf739bd60cc",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_673/frame_16/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_682/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_682/frame_19/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_682/frame_39/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_682/frame_60/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_682/frame_61/DoAction.as",
+      "sha256": "1bcc6dc2d984d71d0847953f7e474eedf040d8f04d26e51eb645814af1790f90",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_682/frame_90/DoAction.as",
+      "sha256": "fae4ba8ed8f956884ed49f0a7379daf6023624f4ae6a6060b3d67bcc4853548a",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_685/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_685/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_692/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_692/frame_70/DoAction.as",
+      "sha256": "9967a7187793fc7eae8d2d9379eb45b5707845efe6e15169a6165a500f548116",
+      "op_count": 4
+    },
+    {
+      "source": "exports/scripts/DefineSprite_692/frame_75/DoAction.as",
+      "sha256": "bc6f70c21a3adef06d40f8ce1bcfc57e27b204ce086a0a1f665a413e5910abd9",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_695/frame_1/DoAction.as",
+      "sha256": "def945151f8ef0b76625ef9e76fdb08c9ca249c12f1068d4090861a554bfa155",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_695/frame_1/DoAction_2.as",
+      "sha256": "1bb4beb2a8c2219cc503db70a83c0b5e546af2efb492dc418640d5f43befcdf1",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_695/frame_2/DoAction.as",
+      "sha256": "6ceb999430c6ce374d5473d1c8fabd018e18396ad9d8d459d8d827b8dbbca1c3",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_697/frame_1/DoAction.as",
+      "sha256": "def945151f8ef0b76625ef9e76fdb08c9ca249c12f1068d4090861a554bfa155",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_697/frame_1/DoAction_2.as",
+      "sha256": "68a67ac3c86015f6d10e1bdff7fbec514dbfa30354dd08bae38860e66104b42e",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_697/frame_2/DoAction.as",
+      "sha256": "9a061dea48dd820a0410d36a5b8db9c17a16406c027651f68b94633e62bd1c23",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_701/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_701/frame_100/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_701/frame_101/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_701/frame_102/DoAction.as",
+      "sha256": "dd961bb7e12330bdc0139cc916fd22d01d807e34ef07b8aa59af912fe2cb7052",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_701/frame_104/DoAction.as",
+      "sha256": "396dd69b8dd946de281337d4dc75586462d426a99698345ce8a9b85fe9855bb0",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_701/frame_20/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_701/frame_44/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_701/frame_73/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_701/frame_98/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_701/frame_99/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_702/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_702/frame_2/DoAction.as",
+      "sha256": "1553e56d461c4fa28b494a927ccc2494752fb8268c1a8af97959d267e8a622a4",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_702/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_702/frame_6/DoAction.as",
+      "sha256": "988e82365cae252305d4af00b4efd20f9dbe72fc989b1c51e0b8bbe7a492935d",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_713/frame_1/DoAction.as",
+      "sha256": "4644a587e8d3d6ed00d0005281ec769a8caf6a8c2652156c1d54748298a0887c",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_713/frame_10/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_713/frame_11/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_713/frame_12/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_713/frame_13/DoAction.as",
+      "sha256": "6aec5ea18d82fe73884bed34def908a017e0e07aa27b613ae97af763ac1f32bb",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_713/frame_14/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_713/frame_15/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_713/frame_16/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_713/frame_20/DoAction.as",
+      "sha256": "2291b15d53884eaaa8cc605f32fb1c53fd4e948975af2e24129f4ecef8115cb5",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_713/frame_40/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_737/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_737/frame_51/DoAction.as",
+      "sha256": "a91b7900303d12a52400456df7d5fc9e34dd9b11c79cb4d43d4bf77cd5a100c8",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_742/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_743/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_745/frame_12/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_1/DoAction.as",
+      "sha256": "221c3176d40dad6f78fc748904f3be3f9b778ec733a64baebf6c7e0c02ca62db",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_2/DoAction.as",
+      "sha256": "269d5f8c06698c66c40c9f8831ed4705ccaebf8d5dfcace6a441d828fbef9b9a",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_220/DoAction.as",
+      "sha256": "b85ba69f177c3482f0d8ef6098b3d5f3316a0e8500238e0d4bea748e59b8a56e",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_253/DoAction.as",
+      "sha256": "8a93e20e5af93c1e519660aecf10dfe6382fd4321d8a2891a02125590c4b672d",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_254/DoAction.as",
+      "sha256": "ff8819e509fc5895243e51526d759dab3163b22357bd86fbc27ff9c75c8ad3be",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_294/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_295/DoAction.as",
+      "sha256": "e42ec385a91a1a5060c9185b77b08103da7681bedd3ac5179a35c8ab861fb74d",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_33/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_40/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_41/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_42/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_43/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_44/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_45/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_60/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_63/DoAction.as",
+      "sha256": "e82bf289bab5b3bf5cbb1ea1ccf57e24380abb2a00a00462f1ea5ea8a90a0484",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_752/frame_80/DoAction.as",
+      "sha256": "2cf17d0f944f045e7501a2f47a158e8a2b0e4ea0bb7195d8de0438d235278c91",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_760/frame_1/DoAction.as",
+      "sha256": "0242253352a3a3a438cbc515f31a83932e8d66bcb0ee02458163844aaa77630c",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_760/frame_1/DoAction_2.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_760/frame_1/DoAction_3.as",
+      "sha256": "a7676a86c31368a55a11a87a98a79626a3c27b8f7dc9d034c3a47119b76559dd",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_760/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_767/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_767/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_768/frame_1/DoAction.as",
+      "sha256": "86082400cf092e5dc9423b1a2def9fd55212125f05ef33345ad93b9f6c7cc738",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_768/frame_1/DoAction_2.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_768/frame_1/DoAction_3.as",
+      "sha256": "900f1b939e3d1d45743dd06c19eb283ef5acc80e084df1a9150c03e060247f5e",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_768/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_786/frame_41/DoAction.as",
+      "sha256": "a78bbb0eaae3a2319f5f58629370faf1455425316f110e8fa25d1a4fe82494c3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_786/frame_65/DoAction.as",
+      "sha256": "35053f002c5674b71a6b615ae0d190871a1a56ad1c185af6cd86771bbcde532c",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_786/frame_72/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_796/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_796/frame_8/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_805/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_805/frame_8/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_81/frame_10/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_822/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_822/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_826/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_826/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_826/frame_23/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_826/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_826/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_827/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_827/frame_28/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_840/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_840/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_840/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_840/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_840/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_840/frame_6/DoAction.as",
+      "sha256": "69076387a910d1b30dde97e7b0d147cc03341ca84de57beb3e27cb9a6ce56c82",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_841/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_841/frame_2/DoAction.as",
+      "sha256": "c0a73253880062f5e3522df7397340403ce3538e328e5d0ed2f6596874556241",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_844/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_844/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_844/frame_70/DoAction.as",
+      "sha256": "a78bbb0eaae3a2319f5f58629370faf1455425316f110e8fa25d1a4fe82494c3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_844/frame_71/DoAction.as",
+      "sha256": "a78bbb0eaae3a2319f5f58629370faf1455425316f110e8fa25d1a4fe82494c3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_844/frame_72/DoAction.as",
+      "sha256": "a78bbb0eaae3a2319f5f58629370faf1455425316f110e8fa25d1a4fe82494c3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_844/frame_73/DoAction.as",
+      "sha256": "9cd59c40ba5d06e9d607b12ffc9911e2be1fe804c8a0c9bb08d6bd99dc5c3fa0",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_844/frame_73/DoAction_2.as",
+      "sha256": "a78bbb0eaae3a2319f5f58629370faf1455425316f110e8fa25d1a4fe82494c3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_844/frame_74/DoAction.as",
+      "sha256": "535cd2a451ff9aae0913a0edf16bc31f089ec16f97be280c9963b1a12d96dc24",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_844/frame_75/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_844/frame_75/DoAction_2.as",
+      "sha256": "a78bbb0eaae3a2319f5f58629370faf1455425316f110e8fa25d1a4fe82494c3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_855/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_859/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_859/frame_7/DoAction.as",
+      "sha256": "c44c7bd825ebbf01228f8f7763dd41fdce979fd682e88e3139f33ef9c3eeeddd",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_860/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_860/frame_22/DoAction.as",
+      "sha256": "2cf17d0f944f045e7501a2f47a158e8a2b0e4ea0bb7195d8de0438d235278c91",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_860/frame_27/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_878/frame_6/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_89/frame_1/DoAction.as",
+      "sha256": "051f4f58062d477246385d160b45b130eff35e694535aa278596034ae51e60ce",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_89/frame_1/DoAction_2.as",
+      "sha256": "900f1b939e3d1d45743dd06c19eb283ef5acc80e084df1a9150c03e060247f5e",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_89/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_890/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_890/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_899/frame_150/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_902/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_902/frame_104/DoAction.as",
+      "sha256": "c9806fb001e57ea8f407e1be2ec08361e475e3d4ebb86e8b2b8a84922f18b01b",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_902/frame_160/DoAction.as",
+      "sha256": "c9806fb001e57ea8f407e1be2ec08361e475e3d4ebb86e8b2b8a84922f18b01b",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_902/frame_208/DoAction.as",
+      "sha256": "892c2cbe06f1b77c70611efc19b423b94bd88c916eb569000ff7e048d2748d35",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_902/frame_50/DoAction.as",
+      "sha256": "c9806fb001e57ea8f407e1be2ec08361e475e3d4ebb86e8b2b8a84922f18b01b",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_910/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_910/frame_8/DoAction.as",
+      "sha256": "41f4518c5e1159b1c3496e7e2d4655bc8efc1135a397056b32e312669e9b7d15",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_910/frame_9/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_915/frame_129/DoAction.as",
+      "sha256": "7e1b5714d1810265f312cd677af1055e4d5d494010ae462ef4839e77dea49e13",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_915/frame_55/DoAction.as",
+      "sha256": "e5081f5b47ce295f81c1c53799dc14d1025e098ceedab647bd91cfc7d1010ad5",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_915/frame_56/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_919/frame_24/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_921/frame_41/DoAction.as",
+      "sha256": "483f0fe5e395ea54583c95f5d6ef967bde8c4322c819fd989f54c3ef6b92c9f8",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_921/frame_41/DoAction_2.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_922/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_922/frame_2/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_922/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_923/frame_91/DoAction.as",
+      "sha256": "731a14a46bf86d42e489ba478cd66b4dc4283957949260353dd796b5cdacb10f",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_1/DoAction.as",
+      "sha256": "cfa89ffb957f44b9b06118a4c0f65f846de0b2ebf21a442fef8a83007d24450f",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_1/DoAction_2.as",
+      "sha256": "d2f5ddb852aaa3fd48b5b7e0aa49af3f9dc4aded7258a7ed51581da6783cac81",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_10/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_11/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_12/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_13/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_14/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_189/DoAction.as",
+      "sha256": "4f57e868263f93092969b2414c433c7cb2921a54a0a901dea44be38b0b399cd9",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_19/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_220/DoAction.as",
+      "sha256": "378b589ab7e601b0cbf5c13900e97f7875d8dd9769f7eda8dd09004fcb3a49e9",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_221/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_230/DoAction.as",
+      "sha256": "0252fc5bb853736060f5c050a85b7e06fdc1d2ff76032761a1212d87ef74fb29",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_253/DoAction.as",
+      "sha256": "d0ce0d935689f81312a6c56b8be9ef00e386bdbdc05222762e3ae73f494da0e7",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_260/DoAction.as",
+      "sha256": "91bd335c495d23f31563a9a2418e329f0a4fc298b48f503c0f3c12e4a781ce43",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_265/DoAction.as",
+      "sha256": "c1845ef8680faa012b913f1e5c3ccb6eee09d82e134c19066ac2a285533c05f2",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_290/DoAction.as",
+      "sha256": "a7f08eb1743160749f7ff7d00a20146f538247b58b86bb3f8e40de327f1d33df",
+      "op_count": 3
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_59/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_6/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_8/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_930/frame_9/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_938/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_938/frame_5/DoAction.as",
+      "sha256": "aad9fbd033f4051df0d5b0428acd91b40fea4614cb0f7e65dce362f29d541857",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_944/frame_50/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_944/frame_51/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_944/frame_52/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_944/frame_53/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_1/DoAction.as",
+      "sha256": "051f4f58062d477246385d160b45b130eff35e694535aa278596034ae51e60ce",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_115/DoAction.as",
+      "sha256": "34865b520b1c079cec78f1286b6d667a33c6a9ca579858ab292a50e3a6260c41",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_115/DoAction_2.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_116/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_117/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_118/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_119/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_120/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_121/DoAction.as",
+      "sha256": "41c270769048dc237be2736c9d1e3a7246851f011d5d2d2da382ad0b53388b4c",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_187/DoAction.as",
+      "sha256": "9d92bc42f91f7edea8c6b24f0e8596fb55e6d3d75307b60c8e4a873340190991",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_202/DoAction.as",
+      "sha256": "9d92bc42f91f7edea8c6b24f0e8596fb55e6d3d75307b60c8e4a873340190991",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_226/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_227/DoAction.as",
+      "sha256": "9d92bc42f91f7edea8c6b24f0e8596fb55e6d3d75307b60c8e4a873340190991",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_967/frame_6/DoAction.as",
+      "sha256": "b39c4f6e02c7d0e3acd394ee9a9f4689336353dc6761570f0aaabb3fe7367bc3",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_97/frame_16/DoAction.as",
+      "sha256": "506866cab3b8cf0ade695c8872d1758e5161ff26b0cca0d0ac00cfadda9c424c",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_974/frame_123/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_98/frame_16/DoAction.as",
+      "sha256": "506866cab3b8cf0ade695c8872d1758e5161ff26b0cca0d0ac00cfadda9c424c",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_99/frame_9/DoAction.as",
+      "sha256": "506866cab3b8cf0ade695c8872d1758e5161ff26b0cca0d0ac00cfadda9c424c",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_991/frame_1/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineSprite_991/frame_5/DoAction.as",
+      "sha256": "aad9fbd033f4051df0d5b0428acd91b40fea4614cb0f7e65dce362f29d541857",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_10/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_11/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_12/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_13/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_14/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_15/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_16/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_17/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_18/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_19/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_2/DoAction.as",
+      "sha256": "7bf25686fbe415015598b5fd61792b103d1eeb5ad8e26542b62f045ad8de08f1",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_2/DoAction_2.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_20/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_21/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_22/DoAction.as",
+      "sha256": "008ca1598a2cbcb17b2bac1ecd60c0cc1df373a0263c049733daee51d1e803f6",
+      "op_count": 2
+    },
+    {
+      "source": "exports/scripts/frame_23/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_3/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_4/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_5/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_6/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_7/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_8/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_9/DoAction.as",
+      "sha256": "3271a793e3f9600314c6b0facc05023c4f3ed09c116d452966200a5d04735655",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/frame_1/DoAction.as",
+      "sha256": "d04b1216ea0829a387373cdd3bd03dc01abfe56ec56429153a0fed7a6fda4f7b",
+      "op_count": 1,
+      "native_equivalent": "stop();",
+      "handling": "Keep the original stop; Flash context-menu and Newgrounds SDK settings are unused."
+    },
+    {
+      "source": "exports/scripts/DefineSprite_22/frame_1/DoAction.as",
+      "sha256": "890c4d290512d23ae58ab28f2fc14040c67494f624e0a65767adae35eb89db2f",
+      "op_count": 2,
+      "native_equivalent": "tellTarget(\"/\"){stop();} gotoAndStop(\"loaded\");",
+      "handling": "Bundled assets are already loaded; keep the original loaded frame and its Play button."
+    },
+    {
+      "source": "exports/scripts/DefineSprite_22/frame_2/DoAction.as",
+      "sha256": "35053f002c5674b71a6b615ae0d190871a1a56ad1c185af6cd86771bbcde532c",
+      "op_count": 1
+    },
+    {
+      "source": "exports/scripts/DefineButton2_15/BUTTONCONDACTION on(release).as",
+      "sha256": "fb8b612fc2f53d2c703b7bf1f4edfac473e0519e6acf09970ae4fc66dcc52ecc",
+      "op_count": 0
+    },
+    {
+      "source": "exports/scripts/DefineButton2_21/BUTTONCONDACTION on(release).as",
+      "sha256": "c57fdbb0c731b05a59cf71dccc021448f64d2fc1d9ca3c21111dd90262638b28",
+      "op_count": 1
+    }
+  ],
+  "external_navigation": [
+    {
+      "source": "exports/scripts/DefineButton2_288/BUTTONCONDACTION on(release).as",
+      "url": "http://www.newgrounds.com",
+      "handling": "offline no-op"
+    },
+    {
+      "source": "exports/scripts/DefineButton2_666/BUTTONCONDACTION on(release).as",
+      "url": "http://www.newgrounds.com/pico",
+      "handling": "offline no-op"
+    },
+    {
+      "source": "exports/scripts/DefineButton2_668/BUTTONCONDACTION on(release).as",
+      "url": "http://www.newgrounds.com",
+      "handling": "offline no-op"
+    },
+    {
+      "source": "exports/scripts/DefineButton2_15/BUTTONCONDACTION on(release).as",
+      "url": "http://www.newgrounds.com",
+      "handling": "offline no-op"
+    }
+  ],
+  "integration_symbols_removed": [
+    34,
+    47,
+    48
+  ],
+  "offline_bootstrap": [
+    {
+      "source": "exports/scripts/frame_1/DoAction.as",
+      "sha256": "d04b1216ea0829a387373cdd3bd03dc01abfe56ec56429153a0fed7a6fda4f7b",
+      "op_count": 1,
+      "native_equivalent": "stop();",
+      "handling": "Keep the original stop; Flash context-menu and Newgrounds SDK settings are unused."
+    },
+    {
+      "source": "exports/scripts/DefineSprite_22/frame_1/DoAction.as",
+      "sha256": "890c4d290512d23ae58ab28f2fc14040c67494f624e0a65767adae35eb89db2f",
+      "op_count": 2,
+      "native_equivalent": "tellTarget(\"/\"){stop();} gotoAndStop(\"loaded\");",
+      "handling": "Bundled assets are already loaded; keep the original loaded frame and its Play button."
+    }
+  ],
+  "gameplay_fixes": [
+    {
+      "source": "exports/scripts/DefineButton2_746/BUTTONCONDACTION on(release).as",
+      "sha256": "3018afacc52509a07be11dfb905302fc21156af898448a5a615bf79e56e13e47",
+      "op_count": 4,
+      "native_equivalent": "on(release){ tellTarget(\"/pico\"){gotoAndStop(7);} tellTarget(\"/music\"){gotoAndPlay(2);} tellTarget(\"/action_room9\"){play();} tellTarget(\"/\"){gotoAndStop(9);} }",
+      "handling": "Restore hallway music when leaving Hanzou's room. The recovered exit omits the music-controller reset used by other exits, leaving the reward track looping."
+    },
+    {
+      "source": "exports/scripts/DefineSprite_233/frame_14/DoAction.as",
+      "sha256": "269d5f8c06698c66c40c9f8831ed4705ccaebf8d5dfcace6a441d828fbef9b9a",
+      "op_count": 2,
+      "native_equivalent": "if (_root._currentframe == 3) { tellTarget(\"/action_semi\") { gotoAndStop(3); } }",
+      "handling": "Restore cinema mode after the key pickup only while still in Alucard's room. The persistent inventory animation can finish after the exit has cleared the message."
+    }
+  ],
+  "button_labels": {
+    "15": "WEBSITE",
+    "21": "PLAY",
+    "84": "GO HALL",
+    "88": "OPEN DOOR",
+    "120": "CONTINUE",
+    "207": "TAKE GUN",
+    "219": "USE GUN",
+    "224": "USE EXTINGUISHER",
+    "228": "USE GOGGLES",
+    "232": "USE SCHOOL KEY",
+    "235": "USE TEACHER KEY",
+    "240": "USE HERB",
+    "288": "WEBSITE",
+    "341": "SHOOT ALUCARD",
+    "371": "GO HALL",
+    "378": "SKIP DIALOGUE",
+    "382": "TAKE SCHOOL KEY",
+    "418": "GO CLASSROOM",
+    "419": "GO EAST",
+    "432": "GO EAST",
+    "433": "GO WEST",
+    "434": "OPEN CLASSROOM",
+    "437": "TAKE EXTINGUISHER",
+    "438": "GO NORTH",
+    "449": "GO EAST",
+    "450": "GO WEST",
+    "451": "OPEN CLOSET",
+    "463": "GO SOUTH",
+    "511": "LEAVE",
+    "557": "GO EAST",
+    "558": "GO WEST",
+    "579": "TAKE HERB",
+    "591": "GO WEST",
+    "593": "GO EAST",
+    "594": "ENTER RESTROOM",
+    "595": "ENTER RESTROOM",
+    "604": "GO EAST",
+    "605": "GO WEST",
+    "647": "GO EAST",
+    "648": "OPEN LOUNGE",
+    "656": "GO WEST",
+    "659": "OPEN FINAL DOOR",
+    "703": "GO SOUTH",
+    "746": "GO SOUTH",
+    "751": "TAKE GOGGLES",
+    "756": "GO CLASSROOM",
+    "757": "GO SOUTH",
+    "763": "GO SOUTH",
+    "766": "TAKE TEACHER KEY",
+    "885": "SHOOT WEAK SPOT",
+    "911": "SHOOT OBJECT",
+    "917": "SHOOT",
+    "350": "SHOOT",
+    "355": "SHOOT",
+    "357": "SHOOT",
+    "361": "SHOOT",
+    "387": "SHOOT",
+    "404": "INTERACT",
+    "422": "INTERACT",
+    "499": "INTERACT",
+    "500": "INTERACT",
+    "534": "INTERACT",
+    "658": "INTERACT",
+    "664": "INTERACT",
+    "666": "INTERACT",
+    "668": "INTERACT",
+    "670": "CONTINUE",
+    "694": "INTERACT",
+    "711": "INTERACT",
+    "739": "SHOOT",
+    "758": "INTERACT",
+    "764": "INTERACT",
+    "773": "SHOOT",
+    "788": "SHOOT",
+    "798": "SHOOT",
+    "806": "SHOOT",
+    "807": "SHOOT",
+    "816": "SHOOT",
+    "839": "SHOOT",
+    "857": "SHOOT",
+    "904": "SHOOT"
+  },
+  "known_limits": [
+    "Frame scheduling must be compared to Flash runtime.",
+    "StartSound loops, no-multiple flags and envelopes are retained. All 23 authored button sound records contain press cues only. In/out points and other button sound transitions fail compilation if introduced.",
+    "Gameplay guards support two flag bits and exact root-frame comparisons; Newgrounds API replaced by local medal callback.",
+    "UI labels are editorial accessibility hints; original dialogue is separately retained in text catalog."
+  ]
+}

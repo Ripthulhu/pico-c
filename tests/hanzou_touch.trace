@@ -1,0 +1,72 @@
+# Display-derived Hanzou finger input, captured from the original RGBA 2x artwork.
+# Artwork SHA256: d298ae26e49ec150b351bf0a25eacf3907950510ff73b559b01e51a1694bd524
+# Diagnostic entry: root 15, room 63, then normal authored ticks at 24 Hz.
+# Render at 1100 x 700. Inspect every stage-pixel centre in x [20,530), y [75,325).
+# Aim at the integer centroid of displayed RGB ff0000 pixels, observed five ticks earlier.
+# Attempt a fresh press every six ticks when that observation contains red pixels.
+# Each press is released one tick later at the same coordinates; no hover is sent.
+# The visible-pixel regression recomputes and checks every recorded press.
+# Tiny profiles replay this trace so artwork palette quantisation cannot supply hidden coordinates.
+# Columns: simulation_tick stage_x stage_y
+6 342 209
+12 375 223
+54 343 177
+60 263 177
+72 127 196
+78 207 196
+96 336 199
+102 242 174
+114 224 153
+120 336 153
+126 369 162
+132 304 179
+138 186 211
+144 183 211
+150 263 211
+162 342 209
+168 375 223
+210 343 177
+216 263 177
+228 127 196
+234 207 196
+252 336 199
+258 242 174
+270 224 153
+276 336 153
+282 369 162
+288 304 179
+294 186 211
+300 183 211
+306 263 211
+318 342 209
+324 375 223
+366 343 177
+372 263 177
+384 127 196
+390 207 196
+408 336 199
+414 242 174
+426 224 153
+432 336 153
+438 369 162
+444 304 179
+450 186 211
+456 183 211
+462 263 211
+474 342 209
+480 375 223
+522 343 177
+528 263 177
+540 127 196
+546 207 196
+564 336 199
+570 242 174
+582 224 153
+588 336 153
+594 369 162
+600 304 179
+606 186 211
+612 183 211
+618 263 211
+630 342 209
+636 375 223

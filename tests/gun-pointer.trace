@@ -1,0 +1,12 @@
+# Actual original-stage pointer coordinates, with 24 game ticks between actions.
+# Classroom -> hall -> east hall -> closet -> gun pickup.
+24 down 262 298
+24 up 262 298
+48 down 462 282
+48 up 462 282
+72 down 462 282
+72 up 462 282
+96 down 378 82
+96 up 378 82
+120 down 174 134
+120 up 174 134
