@@ -75,8 +75,8 @@ typedef struct PicoSoundEvent {
 
 /* A stable life ID identifies one placement lifetime across authored frames.
  * A move changes this immutable record's transform but retains its life ID.
- * name is a string index; 0 must refer to an empty string. clip_depth is 0
- * for ordinary content; nonzero clip masks are surfaced by the draw callback.
+ * name is a string index; 0 must refer to an empty string. clip_depth must be 0;
+ * masks are unsupported and rejected.
  */
 typedef struct PicoPlacement {
     PicoMatrix matrix;
@@ -122,7 +122,7 @@ enum PicoError {
     PICO_ERROR_NESTING = 8,
     PICO_ERROR_BAD_DATA = 16
 };
-enum PicoDrawKind { PICO_DRAW_LEAF = 0, PICO_MASK_BEGIN = 1, PICO_MASK_END = 2 };
+enum PicoDrawKind { PICO_DRAW_LEAF = 0 };
 
 typedef struct PicoHost {
     void *user;

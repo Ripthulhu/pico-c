@@ -293,6 +293,8 @@ class Compiler:
         )
 
     def placement(self, p, life):
+        if p.get("clip_depth", 0):
+            raise ValueError("Clip masks are not supported")
         color = p.get("color_transform", {})
         key = (
             self.matrix(p),

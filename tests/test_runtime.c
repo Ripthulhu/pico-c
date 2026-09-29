@@ -431,6 +431,10 @@ static void test_button_sound_transitions(void) {
 }
 static void test_bounded_failures(void) {
     setup();
+    placements[0].clip_depth = 2;
+    assert(!pico_init(&game, &data, 0, 2));
+    assert(game.errors & PICO_ERROR_BAD_DATA);
+    setup();
     frames[12].first_action = 6;
     actions[6] = (PicoAction){0, 2, 0, PICO_GOTO_STOP, 0};
     actions[7] = (PicoAction){0, 1, 0, PICO_GOTO_STOP, 0};

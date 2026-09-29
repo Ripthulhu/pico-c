@@ -21,13 +21,13 @@ Small devices can render RGB565 rows or monochrome output without a framebuffer 
 - Hanzou's reward music stops when leaving his room, while authored ambience layers remain: `tests/test_music.c`.
 - Tiny captions, reader pages, original graphics and cached/uncached rendering stay consistent: `tests/test_caption.c`, `tests/test_render_equivalence.c`, `tests/test_host_damage.c`.
 
-The compiler retains the source-checked content corrections. Rebuild tables and runtime together: frame records use 16-bit action/sound starts and 32-bit placement starts. The checked-in tables are ready to compile. Regenerating them or the asset banks requires the separate recovery data expected by the Python tools. Source-comparison tests skip when that data isn't present.
+Masks are rejected by the content compiler and runtime; the game uses none. The compiler retains the source-checked content corrections. Rebuild tables and runtime together: frame records use 16-bit action/sound starts and 32-bit placement starts. The checked-in tables are ready to compile. Regenerating them or the asset banks requires the separate recovery data expected by the Python tools. Source-comparison tests skip when that data isn't present.
 
 ## Small-device budget
 
-Keep persistent game state below 16 KiB and aim for at most 64 KiB of game-owned RAM, including stacks and display/audio buffers. Defaults use 320 instances and 128 queued actions. The experimental smaller pools are below the game's conservative instance bound.
+Keep persistent game state below 16 KiB and aim for at most 64 KiB of game-owned RAM, including stacks and display/audio buffers. Defaults use 320 instances and 128 queued actions. Target-specific builds can override the pool sizes in the headers; size them against the game's conservative instance bound.
 
-The S3 compiler measures 11,088 bytes for `Pico`, 28 for `PicoAssets`, and 464 for the optional eight-voice mixer. Core code/tables total 557,561 bytes. With the mixer, micro artwork and micro sound bank, the total is 1,433,001 bytes before platform code, libraries and linker overhead. The audio render function reports 112 bytes of stack; this isn't a whole call-chain limit.
+The S3 compiler measures 11,088 bytes for `Pico`, 28 for `PicoAssets`, and 464 for the optional eight-voice mixer. Core code/tables total 557,449 bytes. With the mixer, micro artwork and micro sound bank, the total is 1,432,889 bytes before platform code, libraries and linker overhead. The audio render function reports 112 bytes of stack; this isn't a whole call-chain limit.
 
 Large colour packs, decoded caches, retained draw lists and full framebuffers are optional costs. The indexed scanline path needs none of them. Tables currently require directly addressable storage. Banked ROM needs an adapter. These are compiler measurements and design budgets, not a working embedded firmware claim.
 

@@ -148,7 +148,8 @@ static void synchronize(Pico *p, uint16_t n, const PicoFrame *f, unsigned level)
             p->errors |= PICO_ERROR_BAD_DATA;
             return;
         }
-        if (p->data->placements[ref].color >= p->data->color_count) {
+        if (p->data->placements[ref].color >= p->data->color_count ||
+            p->data->placements[ref].clip_depth) {
             p->errors |= PICO_ERROR_BAD_DATA;
             return;
         }
@@ -549,13 +550,13 @@ void pico_button(Pico *p, uint16_t instance, int press) {
 }
 
 static void render_node(const Pico *p, uint16_t n, const PicoMatrix *parent,
-                        const PicoColor *parent_color, uint8_t mode, unsigned level) {
+                        const PicoColor *parent_color, unsigned level) {
     PicoMatrix world;
     PicoColor color;
     const PicoPlacement *pl;
     const PicoSymbol *s;
     const PicoFrame *f;
-    uint16_t j, mask_depth = 0;
+    uint16_t j;
     uint32_t frame;
     if (level >= PICO_MAX_NESTING || !live(p, n))
         return;
@@ -579,46 +580,34 @@ static void render_node(const Pico *p, uint16_t n, const PicoMatrix *parent,
         return;
     for (j = 0; j < f->placement_count; j++) {
         uint32_t ref = p->data->placement_refs[f->first_placement + j];
-        uint8_t draw_mode = mode;
         if (ref >= p->data->placement_count)
             return;
         pl = &p->data->placements[ref];
         if (pl->symbol >= p->data->symbol_count)
             return;
-        if (mask_depth && pl->depth > mask_depth) {
-            p->host.draw(p->host.user, 0, &identity, &color_identity, 0, PICO_MASK_END);
-            mask_depth = 0;
-        }
-        if (pl->clip_depth) {
-            if (mask_depth)
-                p->host.draw(p->host.user, 0, &identity, &color_identity, 0, PICO_MASK_END);
-            mask_depth = pl->clip_depth;
-            draw_mode = PICO_MASK_BEGIN;
-        }
         if (p->data->symbols[pl->symbol].kind == PICO_LEAF) {
             PicoMatrix leaf_world;
             PicoColor leaf_color;
             pico_matrix_compose(&leaf_world, &world, &pl->matrix);
             color_compose(&leaf_color, &color, placement_color(p, pl));
-            p->host.draw(p->host.user, pl->symbol, &leaf_world, &leaf_color, pl->ratio, draw_mode);
+            p->host.draw(p->host.user, pl->symbol, &leaf_world, &leaf_color, pl->ratio,
+                         PICO_DRAW_LEAF);
         } else {
             uint16_t child = p->instances[n].child;
             while (child != PICO_NONE) {
                 const PicoPlacement *cp = placement(p, child);
                 if (cp->depth == pl->depth && cp->life == pl->life && cp->symbol == pl->symbol) {
-                    render_node(p, child, &world, &color, draw_mode, level + 1);
+                    render_node(p, child, &world, &color, level + 1);
                     break;
                 }
                 child = p->instances[child].next;
             }
         }
     }
-    if (mask_depth)
-        p->host.draw(p->host.user, 0, &identity, &color_identity, 0, PICO_MASK_END);
 }
 void pico_render(const Pico *p) {
     if (p && p->data && p->host.draw)
-        render_node(p, 0, &identity, &color_identity, PICO_DRAW_LEAF, 0);
+        render_node(p, 0, &identity, &color_identity, 0);
 }
 static int hit_symbol(Pico *p, uint16_t symbol, uint16_t frame, const PicoMatrix *world, int32_t x,
                       int32_t y, unsigned level) {
